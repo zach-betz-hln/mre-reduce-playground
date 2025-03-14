@@ -1,0 +1,14 @@
+{
+  "name": "mre-reduce-playground",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --experimental-transform-types src/main.mts",
+    "check": "npx @biomejs/biome check --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^22.13.10"
+  }
+}
