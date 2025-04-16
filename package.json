@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node --experimental-transform-types src/main.mts",
+    "dev": "node --experimental-transform-types --disable-warning=ExperimentalWarning src/main.mts",
     "check": "npx @biomejs/biome check --write ."
   },
   "devDependencies": {
